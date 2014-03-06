@@ -1,4 +1,4 @@
 Server-Ranks
 ============
 
-A Minecraft Plugin For Bukkit Servers
+A Simple Lightweight Plugin For Minecraft Servers Where Listing Your Server Ranks With Prices Couldn't Be Eaiser 
