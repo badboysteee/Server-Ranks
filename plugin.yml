@@ -1,0 +1,33 @@
+name: Server-Ranks
+version: 1.0.5
+main: com.ste.ServerRanks.ServerRanks
+author: Badboystee
+description: Ranks List (List Ranks On Your Server)
+ 
+commands:
+     Ranks:
+         usage: /<command> [reload, help]
+         description: Reload The Configuration File Of Server-Ranks
+     RanksList:
+         usage: /<command>
+         aliases: [ranksl]
+         description: Sends Them The List Of Ranks On The Server :)
+
+permissions:
+    ranks.*:
+       description: Use all Server-Ranks Permissions
+       children:
+           ranks.ranklist: true
+           ranks.rankreload: true
+           ranks.rankhelp: true
+       default: op
+    ranks.rankreload:
+        description: Reload The Configuration File
+        default: op
+    ranks.rankhelp:
+        description: List The Help Menu For Server-Ranks
+        default: true
+    ranks.ranklist:
+        description: Check the Server Ranks & Prices
+        default: true
+         

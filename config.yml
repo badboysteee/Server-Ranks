@@ -1,0 +1,29 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                    Server-Ranks                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# This Plugin Is Still In Beta!
+# Plugin Made By Badboystee (www.youtube.com/ThatGamerMercs)
+# Authors (Badboystee)
+# Report Bugs On The Project Page
+
+# NOW Supports All Colors :)
+
+# Warning Don't Delete 'Ranks:' As It Will Coruse The Plugin To Crash :)
+Ranks:
+- '[&aA] &8- &b$1,000'
+- '[&bB] &8- &b$2,000'
+- '[&cC] &8- &b$3,000'
+
+# Warning Don't Delete 'NoPermission:' As It Will Coruse The Plugin To Crash :)
+# Also Do Not Use "Don't" As It Will Make The Plugin Not Read The NoPermission :) :P
+NoPermission:
+- '&cYou Do Not Have Permission'
+
+############################################################
+# +------------------------------------------------------+ #
+# |                 End Of Configuration                 | #
+# +------------------------------------------------------+ #
+############################################################
